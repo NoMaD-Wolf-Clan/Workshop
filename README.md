@@ -2,7 +2,9 @@
 
 Telegram content tools, built by NoMaD. Everything runs in your browser and videos are never uploaded.
 
-**Use it:** https://nomad-wolf-clan.github.io/BGRemover/
+**Open the app:** https://nomad-wolf-clan.github.io/Workshop/
+
+No install, no account, no uploads. Open the link on a computer or phone and start creating.
 
 ## Tools
 
@@ -25,4 +27,10 @@ Telegram content tools, built by NoMaD. Everything runs in your browser and vide
 2. Adjust the settings in the right-hand panel.
 3. Click the main button (Export / Upscale / Make GIF) and download your files.
 
-Works best in Chrome or Edge on desktop or Android.
+## Good to know
+- Works best in Chrome or Edge on desktop or Android. Export isn't supported in every browser.
+- Telegram turns GIFs into silent MP4s and drops transparency. For transparent Telegram content, use the sticker or emoji exports.
+- iPhone videos are often HEVC and may not open in Chrome. Convert them to H.264 MP4 first.
+
+---
+Built by NoMaD.
