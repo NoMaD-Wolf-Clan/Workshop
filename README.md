@@ -25,7 +25,9 @@ Open a video or image once. BGRemover, Upscale, GIF maker and Editor all edit th
 - Transparent when the background is removed, or on a background color you choose
 
 **Editor:** shape the project.
+- Add more videos or images to the end of the timeline (images play as stills, 3 s by default, any length you set)
 - Split the timeline at the playhead into segments, delete the parts you don't want, and undo any change
+- Duplicate a segment to repeat it, or reverse it to play backwards (sound reversed too)
 - Set the speed of each segment (0.25× to 4×), with pitch-preserved audio
 - Frame crop by dragging a box, with Free, 9:16, 1:1, 4:5 or 16:9 locks
 - Change the aspect ratio (9:16, 1:1, 4:5, 16:9, 4:3) with bars, blurred background or fill
@@ -44,7 +46,7 @@ Open a video or image once. BGRemover, Upscale, GIF maker and Editor all edit th
 Projects longer than 3 s are sped up to fit (or trimmed) for Telegram, cropped to your subject, and sized to stay under Telegram's limits.
 
 ## Editor shortcuts
-- **S** split at the playhead · **Delete** remove the selected segment · **Ctrl+Z** undo
+- **S** split at the playhead · **D** duplicate · **R** reverse · **Delete** remove the selected segment · **Ctrl+Z** undo
 
 ## How to use
 1. **Open** a video (MP4, WebM) or image (PNG, JPG, WebP).
@@ -60,6 +62,7 @@ Projects longer than 3 s are sped up to fit (or trimmed) for Telegram, cropped t
 - iPhone and iPad (Safari): loading, background removal, GIF maker and image tools work. Video exports need iOS 16.4 or later, and some formats may not be available.
 - MP4 can't be transparent. With the background removed, MP4 exports use the Editor's bar color behind the subject.
 - Telegram turns GIFs into silent MP4s and drops transparency. For transparent Telegram content, use the sticker or emoji exports.
+- Added clips keep the first clip's frame size. Clips with a different shape are fitted inside it with transparent edges.
 - Videos recorded on iPhone are often HEVC and may not open in Chrome on a computer. Convert them to H.264 MP4 first.
 
 ---
