@@ -26,12 +26,15 @@ No install, no account, no uploads. Open the link on a computer or phone and sta
 - Optional background removal using your BGRemover key
 
 **Editor:** edit a single clip.
-- Crop by dragging a box, with Free, 9:16, 1:1, 4:5 or 16:9 locks
+- Split the timeline at the playhead into segments, delete the parts you don't want, and undo any change
+- Set the speed of each segment (0.25× to 4×), with pitch-preserved audio
+- Frame crop by dragging a box, with Free, 9:16, 1:1, 4:5 or 16:9 locks
 - Change the aspect ratio (9:16, 1:1, 4:5, 16:9, 4:3) with bars, blurred background or fill
-- Trim with in and out points
-- Speed from 0.25× to 4×, with pitch-preserved audio
 - Timed captions you type, burned into the video (size and position)
 - Export MP4 (H.264) or WebM (VP9) at 1080p, 720p, 480p or source size, with audio
+
+## Editor shortcuts
+- **S** split at the playhead · **Delete** remove the selected segment · **Ctrl+Z** undo
 
 ## How to use
 1. Choose a tool, then **Open** a video (MP4, WebM) or image (PNG, JPG, WebP).
