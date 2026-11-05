@@ -15,6 +15,7 @@ Open a video or image once. BGRemover, Upscale, GIF maker and Editor all edit th
 - Pick the exact background color with the eyedropper, or let the app detect it
 - Tune Tolerance, Softness, Choke, Despill and Shadows, and check edges in Split or Matte view
 - Switch background removal on or off for the whole project at any time
+- **Stroke:** add an outline around the cut-out subject. Choose its size, color and opacity. It's drawn before the crop, so cropping or changing the aspect ratio cuts straight through it for artistic sticker borders
 
 **Upscale:** enlarge the project 2× or 4× with sharp resize (or Off).
 - Split view compares the result against a plain resize, and 100% zoom shows real pixels
