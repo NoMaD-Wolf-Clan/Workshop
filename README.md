@@ -1,6 +1,6 @@
 # NoMaD Workshop
 
-Telegram content tools, built by NoMaD. Everything runs in your browser and your files are never uploaded.
+Telegram and Discord content tools, built by NoMaD. Everything runs in your browser and your files are never uploaded.
 
 **Open the app:** https://nomad-wolf-clan.github.io/Workshop/
 
@@ -38,12 +38,17 @@ Open a video or image once. BGRemover, Upscale, GIF maker and Editor all edit th
 - **Long-form MP4:** 1920×1080 (16:9), H.264 16–24 Mbps, AAC 192k, for YouTube
 - **Telegram video sticker:** 512 px, ≤3 s, ≤30 fps, ≤256 KB, VP9 with transparency, no audio
 - **Telegram custom emoji:** 100×100, 64 KB by default, 256 KB optional
+- **Discord emoji:** animated GIF or static PNG, 128×128, ≤256 KB
+- **Discord sticker:** animated APNG (smooth transparent edges) or GIF, or static PNG, 320×320, ≤512 KB
+- Static Discord files from a video use the frame at the playhead
 - **WebM:** full quality, transparent when the background is removed
 - **GIF:** resolution, frame rate, size target, background color
-- **Images:** PNG, Telegram static sticker (512 px), Telegram static emoji (100×100)
+- **Images:** PNG, Telegram static sticker (512 px), Telegram static emoji (100×100), Discord emoji (PNG 128×128), Discord sticker (PNG 320×320)
 - Export several formats at once, then download each or all as a zip
 
 Projects longer than 3 s are sped up to fit (or trimmed) for Telegram, cropped to your subject, and sized to stay under Telegram's limits.
+
+Discord files are square, cropped to your subject and kept under Discord's size limits. Frame rate, colors and motion detail are lowered only as far as needed. For long projects, set Length to 3 s.
 
 ## Editor shortcuts
 - **S** split at the playhead · **D** duplicate · **R** reverse · **Delete** remove the selected segment · **Ctrl+Z** undo
@@ -54,14 +59,16 @@ Projects longer than 3 s are sped up to fit (or trimmed) for Telegram, cropped t
 3. Click **Export**, tick the formats you want, and download your files.
 
 ## On your phone
-- Upright: the video stays at the top, tools scroll below, and the tool tabs sit in a bar at the bottom.
-- Sideways: the screen splits in half, with the video on the left and tools on the right. It switches automatically when you turn the phone.
+- Upright: a square video window stays pinned under the header, and every setting scrolls freely below it. The tool tabs sit in a bar at the bottom.
+- Sideways: the square video window stays on the left, and the tabs and settings scroll on the right. It switches automatically when you turn the phone.
+- Pick the output shape (9:16, 1:1, 4:5, 16:9, 4:3) in the Editor's Aspect ratio setting. The video window always stays square.
 
 ## Good to know
 - Works best in Chrome or Edge on desktop or Android.
 - iPhone and iPad (Safari): loading, background removal, GIF maker and image tools work. Video exports need iOS 16.4 or later, and some formats may not be available.
 - MP4 can't be transparent. With the background removed, MP4 exports use the Editor's bar color behind the subject.
 - Telegram turns GIFs into silent MP4s and drops transparency. For transparent Telegram content, use the sticker or emoji exports.
+- GIF transparency is on or off per pixel, so Discord GIFs blend their edges into the theme you pick (dark by default). APNG stickers keep soft edges on any theme.
 - Added clips keep the first clip's frame size. Clips with a different shape are fitted inside it with transparent edges.
 - Videos recorded on iPhone are often HEVC and may not open in Chrome on a computer. Convert them to H.264 MP4 first.
 
