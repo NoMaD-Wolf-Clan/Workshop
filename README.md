@@ -15,6 +15,10 @@ Open a video or image once. BGRemover, Upscale, GIF maker and Editor all edit th
 - Pick the exact background color with the eyedropper, or let the app detect it
 - Tune Tolerance, Softness, Choke, Despill and Shadows, and check edges in Split or Matte view
 - Switch background removal on or off for the whole project at any time
+- **Mask:** fix the cut-out by hand. **Keep** paints back parts the background removal took, **Remove** erases leftover background, and **Erase mask** undoes painting
+  - **Smart brush:** with Smart edges on, it only paints colors like the spot where the stroke starts, so it stops at the subject's edges
+  - **Magic wand:** tap to select every connected pixel of a similar color (Tolerance slider)
+  - **Track motion (video):** the mask follows the subject across frames, so you paint it once
 - **Stroke:** add an outline around the cut-out subject. Choose its size, color and opacity. It's drawn before the crop, so cropping or changing the aspect ratio cuts straight through it for artistic sticker borders
 
 **Upscale:** enlarge the project 2× or 4× with sharp resize (or Off).
@@ -52,6 +56,7 @@ Projects longer than 3 s are sped up to fit (or trimmed) for Telegram, cropped t
 Discord files are square, cropped to your subject and kept under Discord's size limits. Frame rate, colors and motion detail are lowered only as far as needed. For long projects, set Length to 3 s.
 
 ## Editor shortcuts
+- **Esc** stop painting the mask (BGRemover)
 - **S** split at the playhead · **D** duplicate · **R** reverse · **Delete** remove the selected segment · **Ctrl+Z** undo
 
 ## How to use
